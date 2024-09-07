@@ -42,12 +42,21 @@ Robby Infinger (RobbyInfinger)
 - Edited document to explain the tests for diagonal win.
 
 Nicholas Jordan (BallyhooAndBigTop)
+- Revised UML diagrams to account for the interface and abstract class
+- Edited contracts in GameBoard
+- Cleaned up code by removing commented out functions/"dead code"
+- Improved interface specification
 - Wrote test and documentation for checkIfFree
 - Revised tests and test documentation for checkDiagWin, isPlayerAtPos, and dropToken to test more diverse circumstances
   and better comply with preconditions/invariants
 - Ironed out various discrepancies between tests, documentation, and preconditions/invariants
 
 Samuel Jordan (srjorda)
+- Wrote implementation for GameBoardMem
+- Rewrote IGameBoard.toString() to meet new requirements
+- Helped write the additions to main() that allow for multiple players and resizeable boards
+- Revised some logic and cut down on variables in main()
+- Made some necessary revisions to contracts after implementing GameBoardMem
 - set up initial Test files and path structure such that the tests could easily be added and recognized by IntelliJ
 - updated Makefile with proper test file paths
 - wrote factory, matrix generation, and matrix-string conversion functions for use in testing
